@@ -45,8 +45,8 @@ const Home: React.FC = () => {
       </section>
       <section>
         <h2 className="text-2xl font-bold mb-4 text-gray-800">Eventos Populares</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {["Evento 1", "Evento 2", "Evento 3"].map((evento, index) => (
+        <div className="grid md:grid-cols-4 gap-4 grid-cols-4">
+          {["Evento 1", "Evento 2", "Evento 3", "Evento 4"].map((evento, index) => (
             <div key={index} className="bg-white shadow-md p-4 rounded-lg border border-gray-200">
               <h3 className="font-semibold text-gray-800">{evento}</h3>
               <p className="text-gray-600 text-sm mt-2">Sáb, Mar 15 • 19:00h</p>
